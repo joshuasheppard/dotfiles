@@ -24,3 +24,8 @@ following:
 vim-misc)
 * [vim-pug](https://github.com/digitaltoad/vim-pug) - Vim syntax for Pug teplates
 * [vim-toml](https://github.com/cespare/vim-toml) - Vim syntax for TOML
+
+## tmux and tmuxinator
+
+I used the `~/,bin/tmuxinator.zsh` from [tmuxinator](https://github.com/tmuxinator/tmuxinator/blob/master/completion/tmuxinator.zsh).
+
