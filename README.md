@@ -27,5 +27,7 @@ vim-misc)
 
 ## tmux and tmuxinator
 
+Inspiration from [hkievet](https://github.com/hkievet/).
+
 I used the `~/.bin/tmuxinator.zsh` from [tmuxinator](https://github.com/tmuxinator/tmuxinator/blob/master/completion/tmuxinator.zsh).
 
