@@ -8,6 +8,7 @@ set ts=4
 
 " Set autoindenting to match previous line
 set autoindent
+set smartindent
 
 " Turn on line numbering
 set number
