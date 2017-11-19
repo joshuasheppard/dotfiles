@@ -72,6 +72,7 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -87,5 +88,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias mark="open -a \"Marked 2\" $1"
+
+# https://powerline.readthedocs.io/en/latest/usage/other.html#tmux-statusline
+# Still troubleshooting powerline-status
+#POWERLINE_CONFIG_COMMAND="python /Library/Python/2.7/site-packages/powerline/config.py"
+
+source ~/.bin/tmuxinator.zsh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

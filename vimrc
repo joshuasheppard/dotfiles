@@ -23,3 +23,15 @@ autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 :let g:notes_directories = ['~/Dropbox/vim-notes']
 :let g:notes_word_boundaries = 1
 
+" THIS BLOCK DIDN'T SEEM TO WORK
+" Powerline status line
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
+":let g:powerline_pycmd = 'py'
+":let g:powerline_pyeval = 'py'
+
+" But this Powerline statusline did
+set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim/
+set laststatus=2
+
