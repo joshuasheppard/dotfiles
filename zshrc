@@ -74,6 +74,24 @@ source $ZSH/oh-my-zsh.sh
 # fi
 export EDITOR='vim'
 
+# pip should only run if there is a virtualenv currently activated
+PIP_REQUIRE_VIRTUALENV=true
+
+# cache pip-installed packages to avoid re-downloading
+PIP_DOWNLOAD_CACHE=$HOME/.pip/cache:
+
+# To upgrade global packages:
+# syspip install --upgrade pip setuptools virtualenv
+syspip(){
+  PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+# Python 3
+syspip3(){
+  PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
+}
+
+export PIP_REQUIRE_VIRTUALENV PIP_DOWNLOAD_CACHE
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 

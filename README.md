@@ -31,3 +31,6 @@ Inspiration from [hkievet](https://github.com/hkievet/).
 
 I used the `~/.bin/tmuxinator.zsh` from [tmuxinator](https://github.com/tmuxinator/tmuxinator/blob/master/completion/tmuxinator.zsh).
 
+## pip rules in zshrc
+Credit to [@andreburgaud](https://twitter.com/andreburgaud)
+
