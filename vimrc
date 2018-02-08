@@ -8,6 +8,7 @@ set ts=4
 
 " Set autoindenting to match previous line
 set autoindent
+set smartindent
 
 " Turn on line numbering
 set number
@@ -22,7 +23,7 @@ autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 :let g:notes_directories = ['~/Dropbox/vim-notes']
 :let g:notes_word_boundaries = 1
 
-" Powerline statusline 
+" Powerline statusline - assumes `pip install powerline-status`
 set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim/
 set laststatus=2
 
